@@ -1,8 +1,6 @@
-function myFunction() {
-  const x = document.getElementById("topNav");
-  if (x.className === "container") {
-    x.className += "responsive";
-  } else {
-    x.className = "container";
-  }
-}
+// const menu = document.getElementsByClassName(".header")[0];
+// const toggleButton = document.querySelector(".icon");
+
+// toggleButton.addEventListener("click", () => {
+//   menu.classList.toggle("header");
+// });
