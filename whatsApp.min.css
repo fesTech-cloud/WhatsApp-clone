@@ -802,4 +802,39 @@ body {
     font-size: 13px;
     display: flex;
   }
+
+  .grid1-features {
+    display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .grid1-features .grid1-features-span2 {
+    margin-bottom: 0px;
+    padding: 0;
+  }
+
+  .grid1-features .grid1-features-span4 {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding: 0;
+  }
+
+  .grid1-features .grid1-features-span4 img {
+    margin-right: -20vh;
+  }
+
+  .grid1-features .grid1-features-span6 {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding: 0;
+  }
+
+  .grid1-features .grid1-features-span8 {
+    margin-top: 0vh;
+    margin-bottom: -5vh;
+    padding: 0;
+  }
 }
