@@ -1023,3 +1023,367 @@ body {
     margin-right: 4em;
   }
 }
+
+/* Security-css */
+
+body {
+  background-color: #f0f4f9;
+}
+
+.security-grid-1 {
+  text-align: center;
+  padding-top: 20vh;
+  background-color: #e3efe5;
+}
+
+.security-grid-1 img {
+  width: 70em;
+}
+
+/* security-grid2 */
+.security-grid2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  background-color: #fff;
+  padding-left: 25vh;
+  padding-right: 25vh;
+  padding-top: 8vh;
+  padding-bottom: 18vh;
+  display: block;
+  margin-bottom: -2em;
+}
+
+.security-grid2 .security-grid2-span1 {
+  text-align: left;
+}
+
+.security-grid2-span1 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  padding-bottom: 7vh;
+}
+
+.security-grid2-span1 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 43px;
+  padding-bottom: 2vh;
+}
+
+.security-grid2-span1 h5 {
+  font-style: normal;
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.security-grid2-span1 h5 a {
+  text-decoration: none;
+  color: #39b3ed;
+}
+
+.security-grid2-span2 img {
+  width: 70vh;
+  text-align: center;
+  padding-top: 2vh;
+  padding-left: 20vh;
+  display: block;
+  padding-bottom: 5vh;
+}
+
+.security-grid2-span3 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 43px;
+  padding-bottom: 2vh;
+}
+
+.security-grid2-span3 h5 {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.security-grid2-span4 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 43px;
+  /* padding-bottom: 2vh; */
+  padding-top: 6vh;
+}
+
+.security-grid2-span4 h5 {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-top: 2vh;
+}
+
+.security-grid2-span5 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 43px;
+  padding-top: 6vh;
+}
+
+.security-grid2-span5 h5 {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-top: 2vh;
+}
+
+.security-grid2-div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8vh;
+  border-bottom: 1px solid #686b702d;
+}
+
+.security-grid2-div1-span1 img {
+  width: 25vh;
+}
+
+.security-grid2-div1-span1 h4 {
+  padding-top: 5vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.security-grid2-div1-span1 h5 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 14.5px;
+  padding-top: 3vh;
+  padding-bottom: 10vh;
+}
+
+.security-grid2-div1-span2 {
+  padding-left: 25vh;
+}
+.security-grid2-div1-span2 img {
+  width: 25vh;
+}
+
+.security-grid2-div1-span2 h4 {
+  padding-top: 5vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.security-grid2-div1-span2 h5 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 14.5px;
+  padding-top: 3vh;
+  padding-bottom: 10vh;
+}
+
+/* grid2 */
+
+.security-grid2-div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 8vh; */
+  padding-top: -8em;
+}
+
+.security-grid2-div2-span1 {
+  margin-top: -4.5em;
+}
+
+.security-grid2-div2-span1 h4 {
+  padding-top: 5vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.security-grid2-div2-span1 h5 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 13px;
+  padding-top: 3vh;
+  padding-bottom: 10vh;
+}
+
+.security-grid2-div2 img {
+  width: 25vh;
+}
+
+.security-grid2-div2-span1 {
+  padding-right: 10vh;
+}
+
+.security-grid2-div2-span2 {
+  padding-left: -2em;
+  margin-top: 2em;
+}
+
+.security-grid2-div2-span2 h4 {
+  padding-top: 5vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.5px;
+}
+
+.security-grid2-div2-span2 h5 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 14.5px;
+  padding-top: 3vh;
+  padding-bottom: 10vh;
+}
+
+.security-grid2-div2 img {
+  width: 25vh;
+}
+
+.security-grid2-div2-span2 {
+  padding-right: 4vh;
+}
+
+.security-grid2-div2-span2 a {
+  text-decoration: none;
+  color: #39b3ed;
+}
+
+.security-grid2 h3 {
+  padding-top: 10vh;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.security-grid2 h3 b {
+  font-size: 14px;
+  font-weight: 250;
+}
+
+/* security mobile version */
+@media (max-width: 768px) {
+  .security-grid2 {
+    /* text-align: center; */
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+
+  .security-grid-1 img {
+    text-align: center;
+    width: 80vh;
+  }
+
+  .security-grid2-span1 h3 {
+    margin-top: -15vh;
+  }
+
+  .security-grid2-span1 h5 {
+    margin-top: -2.5vh;
+  }
+
+  .security-grid2-span2 {
+    display: block;
+    text-align: center;
+    margin-left: -5.5em;
+    width: 40vh;
+  }
+
+  .security-grid2-span3 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -4em;
+  }
+
+  .security-grid2-span3 h5 {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .security-grid2-span4 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -2em;
+  }
+
+  .security-grid2-span4 h5 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0em;
+  }
+
+  .security-grid2-span5 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -2em;
+  }
+
+  .security-grid2-span5 h5 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0em;
+  }
+  .security-grid2-div1 {
+    display: block;
+    text-align: center;
+  }
+
+  .security-grid2-div1-span1 img {
+    width: 20vh;
+  }
+
+  .security-grid2-div1-span1 h5 {
+    font-size: 12px;
+    font-weight: 300px;
+  }
+
+  .security-grid2-div1-span2 img {
+    margin-left: -8em;
+    width: 20vh;
+  }
+
+  .security-grid2-div1-span2 h5 {
+    font-size: 12px;
+    font-weight: 300px;
+  }
+
+  .security-grid2-div2 {
+    display: block;
+    text-align: center;
+  }
+
+  .security-grid2-div2 h5 {
+    font-size: 12px;
+    font-weight: 300px;
+  }
+
+  .security-grid2-div2-span1 img {
+    width: 20vh;
+  }
+  .security-grid2-div2-span2 img {
+    margin-left: -2em;
+    width: 20vh;
+  }
+}
