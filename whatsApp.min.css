@@ -185,11 +185,12 @@ body {
 
 .grid2 .grid2-grid2 p {
   font-family: "roboto";
-  font-size: 18px;
-  font-weight: 400px;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 20px;
   color: #1c1e21;
   padding-top: 20px;
+  font-style: normal;
 }
 
 .grid2 .grid2-grid2 a {
@@ -331,7 +332,7 @@ body {
     color: #fff;
   }
 
-  .container-main .grid-1 .whatsap-phone {
+  .grid-1 .whatsap-phone {
     display: none;
   }
 
@@ -836,5 +837,189 @@ body {
     margin-top: 0vh;
     margin-bottom: -5vh;
     padding: 0;
+  }
+}
+
+/* Download css */
+
+.download-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-bottom: -1.9em;
+}
+
+/* donwload-grid-grid1 */
+
+.donwload-grid-grid1 {
+  background-color: #e7f0e4;
+  padding-top: 25vh;
+  text-align: center;
+}
+
+.donwload-grid-grid1 h3 {
+  padding-bottom: 10vh;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.download-grid-grid1-grid1 {
+  padding-right: 15vh;
+  padding-bottom: 10px;
+}
+
+/* android-button */
+.android-button {
+  margin-left: -5em;
+}
+
+/* download-grid-grid1-grid1 img */
+.download-grid-grid1-grid1 img {
+  width: 25vh;
+  /* margin-right: 4em; */
+  padding-bottom: 7.5vh;
+}
+
+.android-button {
+  margin-left: -9.5em;
+  padding: 13px 25px;
+  border: none;
+  background-color: #128c7e;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.android-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.iphone-button {
+  margin-left: -8.5em;
+  text-align: center;
+  padding: 13px 30px;
+  border: none;
+  background-color: #128c7e;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.iphone-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.download-grid-grid1-grid1 {
+  margin-left: -6.5em;
+}
+
+/* download-grid-grid1-grid2 img */
+.download-grid-grid1-grid2 img {
+  width: 22vh;
+  padding-bottom: 7.5vh;
+  margin-left: 5em;
+}
+
+.download-grid-grid1-grid2 {
+  margin-right: -5em;
+}
+
+/* download-grid-grid1-grid2-grid img */
+
+/* download-grid h2 */
+.donwload-grid-grid1 h2 {
+  padding-top: 10vh;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.donwload-grid-grid1 h2 a {
+  text-decoration: none;
+  color: #39b3ed;
+}
+
+.donwload-grid-grid1 h6 {
+  font-weight: 300;
+  font-size: 12px;
+  padding-bottom: 10vh;
+}
+
+.donwload-grid-grid1 h6 a {
+  text-decoration: none;
+  color: #39b3ed;
+}
+
+.download-grid-grid1-grid2-grid {
+  text-align: center;
+  background-color: #fcf2c6;
+  padding-top: 25vh;
+}
+
+.download-grid-grid1-grid2-grid h3 {
+  padding-bottom: 10vh;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.download-grid-grid1-grid2-grid img {
+  width: 50vh;
+}
+
+.download-grid-grid1-grid2-grid h6 {
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.download-grid-grid1-grid2-grid h6 a {
+  text-decoration: none;
+  color: #39b3ed;
+}
+
+.download-grid-grid1-grid2-grid button {
+  padding: 15px 20px;
+  background-color: #128c7e;
+  border: none;
+  border-radius: 50px;
+}
+
+.download-grid-grid1-grid2-grid button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.download-grid-grid1-grid2-grid .div2-img2 {
+  width: 25vh;
+  padding-top: 30px;
+}
+
+.download-grid-grid1-grid2-grid .down-for-windows {
+  padding-bottom: 20vh;
+}
+
+@media (max-width: 768px) {
+  .download-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -3em;
+
+    padding: 0px;
+    grid-gap: 0px;
+  }
+
+  .download-grid-grid1-grid1 {
+    display: block;
+    margin-left: 5em;
+    padding-bottom: 2em;
+  }
+  .download-grid-grid1-grid2 {
+    margin-right: 4em;
   }
 }
